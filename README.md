@@ -7,8 +7,8 @@ An Angular 20 frontend for the [`tft-team-builder` Java project](https://github.
 Requires Node.js 20.19+, 22.12+, or 24+ and npm.
 
 ```bash
-git clone https://github.com/3lW30N/tft-team-builder-frontend.git
-cd tft-team-builder-frontend
+git clone https://github.com/slpbtqt/Tft-builder-front.git
+cd Tft-builder-front
 npm ci
 npm start
 ```

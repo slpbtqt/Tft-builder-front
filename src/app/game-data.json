@@ -1,0 +1,1806 @@
+{
+  "champions": [
+    {
+      "id": "TFT13_Amumu",
+      "name": "Amumu",
+      "cost": 1,
+      "traits": [
+        "Automata",
+        "Watcher"
+      ],
+      "image": "assets/champions/TFT13_Amumu.png",
+      "splash": "assets/champions/TFT13_Amumu-splash.png",
+      "health": 600.0,
+      "attack": 45,
+      "armor": 35.0,
+      "range": 1.0,
+      "ability": "Obsolete Technology"
+    },
+    {
+      "id": "TFT13_Darius",
+      "name": "Darius",
+      "cost": 1,
+      "traits": [
+        "Conqueror",
+        "Watcher"
+      ],
+      "image": "assets/champions/TFT13_Darius.png",
+      "splash": "assets/champions/TFT13_Darius-splash.png",
+      "health": 600.0,
+      "attack": 55,
+      "armor": 40.0,
+      "range": 1.0,
+      "ability": "Decimate"
+    },
+    {
+      "id": "TFT13_Draven",
+      "name": "Draven",
+      "cost": 1,
+      "traits": [
+        "Conqueror",
+        "Pit Fighter"
+      ],
+      "image": "assets/champions/TFT13_Draven.png",
+      "splash": "assets/champions/TFT13_Draven-splash.png",
+      "health": 500.0,
+      "attack": 55,
+      "armor": 15.0,
+      "range": 4.0,
+      "ability": "Spinning Axes"
+    },
+    {
+      "id": "TFT13_Irelia",
+      "name": "Irelia",
+      "cost": 1,
+      "traits": [
+        "Rebel",
+        "Sentinel"
+      ],
+      "image": "assets/champions/TFT13_Irelia.png",
+      "splash": "assets/champions/TFT13_Irelia-splash.png",
+      "health": 700.0,
+      "attack": 45,
+      "armor": 40.0,
+      "range": 1.0,
+      "ability": "Defiant Dance"
+    },
+    {
+      "id": "TFT13_Lux",
+      "name": "Lux",
+      "cost": 1,
+      "traits": [
+        "Academy",
+        "Sorcerer"
+      ],
+      "image": "assets/champions/TFT13_Lux.png",
+      "splash": "assets/champions/TFT13_Lux-splash.png",
+      "health": 500.0,
+      "attack": 30,
+      "armor": 20.0,
+      "range": 4.0,
+      "ability": "Prismatic Barrier"
+    },
+    {
+      "id": "TFT13_Shooter",
+      "name": "Maddie",
+      "cost": 1,
+      "traits": [
+        "Enforcer",
+        "Sniper"
+      ],
+      "image": "assets/champions/TFT13_Shooter.png",
+      "splash": "assets/champions/TFT13_Shooter-splash.png",
+      "health": 500.0,
+      "attack": 50,
+      "armor": 15.0,
+      "range": 6.0,
+      "ability": "Fan the Hammer"
+    },
+    {
+      "id": "TFT13_Morgana",
+      "name": "Morgana",
+      "cost": 1,
+      "traits": [
+        "Black Rose",
+        "Visionary"
+      ],
+      "image": "assets/champions/TFT13_Morgana.png",
+      "splash": "assets/champions/TFT13_Morgana-splash.png",
+      "health": 500.0,
+      "attack": 30,
+      "armor": 20.0,
+      "range": 4.0,
+      "ability": "Tormented Soul"
+    },
+    {
+      "id": "TFT13_Blue",
+      "name": "Powder",
+      "cost": 1,
+      "traits": [
+        "Family",
+        "Scrap",
+        "Ambusher"
+      ],
+      "image": "assets/champions/TFT13_Blue.png",
+      "splash": "assets/champions/TFT13_Blue-splash.png",
+      "health": 500.0,
+      "attack": 35,
+      "armor": 15.0,
+      "range": 4.0,
+      "ability": "Misfit Toy"
+    },
+    {
+      "id": "TFT13_Singed",
+      "name": "Singed",
+      "cost": 1,
+      "traits": [
+        "Chem-Baron",
+        "Sentinel"
+      ],
+      "image": "assets/champions/TFT13_Singed.png",
+      "splash": "assets/champions/TFT13_Singed-splash.png",
+      "health": 650.0,
+      "attack": 55,
+      "armor": 40.0,
+      "range": 1.0,
+      "ability": "Dangerous Mutations"
+    },
+    {
+      "id": "TFT13_Fish",
+      "name": "Steb",
+      "cost": 1,
+      "traits": [
+        "Enforcer",
+        "Bruiser"
+      ],
+      "image": "assets/champions/TFT13_Fish.png",
+      "splash": "assets/champions/TFT13_Fish-splash.png",
+      "health": 650.0,
+      "attack": 55,
+      "armor": 45.0,
+      "range": 1.0,
+      "ability": "Field Medicine"
+    },
+    {
+      "id": "TFT13_Trundle",
+      "name": "Trundle",
+      "cost": 1,
+      "traits": [
+        "Scrap",
+        "Bruiser"
+      ],
+      "image": "assets/champions/TFT13_Trundle.png",
+      "splash": "assets/champions/TFT13_Trundle-splash.png",
+      "health": 650.0,
+      "attack": 50,
+      "armor": 40.0,
+      "range": 1.0,
+      "ability": "Desperate Chomp"
+    },
+    {
+      "id": "TFT13_Vex",
+      "name": "Vex",
+      "cost": 1,
+      "traits": [
+        "Rebel",
+        "Visionary"
+      ],
+      "image": "assets/champions/TFT13_Vex.png",
+      "splash": "assets/champions/TFT13_Vex-splash.png",
+      "health": 450.0,
+      "attack": 30,
+      "armor": 15.0,
+      "range": 4.0,
+      "ability": "Looming Darkness"
+    },
+    {
+      "id": "TFT13_Red",
+      "name": "Violet",
+      "cost": 1,
+      "traits": [
+        "Family",
+        "Pit Fighter"
+      ],
+      "image": "assets/champions/TFT13_Red.png",
+      "splash": "assets/champions/TFT13_Red-splash.png",
+      "health": 650.0,
+      "attack": 50,
+      "armor": 40.0,
+      "range": 1.0,
+      "ability": "1-2-3 Combo"
+    },
+    {
+      "id": "TFT13_Zyra",
+      "name": "Zyra",
+      "cost": 1,
+      "traits": [
+        "Experiment",
+        "Sorcerer"
+      ],
+      "image": "assets/champions/TFT13_Zyra.png",
+      "splash": "assets/champions/TFT13_Zyra-splash.png",
+      "health": 500.0,
+      "attack": 30,
+      "armor": 20.0,
+      "range": 4.0,
+      "ability": "Grasping Roots"
+    },
+    {
+      "id": "TFT13_Akali",
+      "name": "Akali",
+      "cost": 2,
+      "traits": [
+        "Rebel",
+        "Quickstriker"
+      ],
+      "image": "assets/champions/TFT13_Akali.png",
+      "splash": "assets/champions/TFT13_Akali-splash.png",
+      "health": 700.0,
+      "attack": 45,
+      "armor": 45.0,
+      "range": 1.0,
+      "ability": "Shuriken Flip"
+    },
+    {
+      "id": "TFT13_Camille",
+      "name": "Camille",
+      "cost": 2,
+      "traits": [
+        "Enforcer",
+        "Ambusher"
+      ],
+      "image": "assets/champions/TFT13_Camille.png",
+      "splash": "assets/champions/TFT13_Camille-splash.png",
+      "health": 700.0,
+      "attack": 50,
+      "armor": 45.0,
+      "range": 1.0,
+      "ability": "Adaptive Strike"
+    },
+    {
+      "id": "TFT13_Leona",
+      "name": "Leona",
+      "cost": 2,
+      "traits": [
+        "Academy",
+        "Sentinel"
+      ],
+      "image": "assets/champions/TFT13_Leona.png",
+      "splash": "assets/champions/TFT13_Leona-splash.png",
+      "health": 800.0,
+      "attack": 55,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Eclipse"
+    },
+    {
+      "id": "TFT13_Nocturne",
+      "name": "Nocturne",
+      "cost": 2,
+      "traits": [
+        "Automata",
+        "Quickstriker"
+      ],
+      "image": "assets/champions/TFT13_Nocturne.png",
+      "splash": "assets/champions/TFT13_Nocturne-splash.png",
+      "health": 700.0,
+      "attack": 65,
+      "armor": 45.0,
+      "range": 1.0,
+      "ability": "Overdrive Blades"
+    },
+    {
+      "id": "TFT13_Rell",
+      "name": "Rell",
+      "cost": 2,
+      "traits": [
+        "Conqueror",
+        "Sentinel",
+        "Visionary"
+      ],
+      "image": "assets/champions/TFT13_Rell.png",
+      "splash": "assets/champions/TFT13_Rell-splash.png",
+      "health": 800.0,
+      "attack": 60,
+      "armor": 45.0,
+      "range": 1.0,
+      "ability": "Shattering Strike"
+    },
+    {
+      "id": "TFT13_RenataGlasc",
+      "name": "Renata Glasc",
+      "cost": 2,
+      "traits": [
+        "Chem-Baron",
+        "Visionary"
+      ],
+      "image": "assets/champions/TFT13_RenataGlasc.png",
+      "splash": "assets/champions/TFT13_RenataGlasc-splash.png",
+      "health": 600.0,
+      "attack": 35,
+      "armor": 20.0,
+      "range": 4.0,
+      "ability": "Loyalty Program"
+    },
+    {
+      "id": "TFT13_Sett",
+      "name": "Sett",
+      "cost": 2,
+      "traits": [
+        "Rebel",
+        "Bruiser"
+      ],
+      "image": "assets/champions/TFT13_Sett.png",
+      "splash": "assets/champions/TFT13_Sett-splash.png",
+      "health": 850.0,
+      "attack": 60,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Facebreaker"
+    },
+    {
+      "id": "TFT13_Tristana",
+      "name": "Tristana",
+      "cost": 2,
+      "traits": [
+        "Emissary",
+        "Artillerist"
+      ],
+      "image": "assets/champions/TFT13_Tristana.png",
+      "splash": "assets/champions/TFT13_Tristana-splash.png",
+      "health": 550.0,
+      "attack": 42,
+      "armor": 20.0,
+      "range": 4.0,
+      "ability": "Draw a Bead"
+    },
+    {
+      "id": "TFT13_Urgot",
+      "name": "Urgot",
+      "cost": 2,
+      "traits": [
+        "Experiment",
+        "Pit Fighter",
+        "Artillerist"
+      ],
+      "image": "assets/champions/TFT13_Urgot.png",
+      "splash": "assets/champions/TFT13_Urgot-splash.png",
+      "health": 700.0,
+      "attack": 50,
+      "armor": 45.0,
+      "range": 2.0,
+      "ability": "Corrosive Charge"
+    },
+    {
+      "id": "TFT13_Prime",
+      "name": "Vander",
+      "cost": 2,
+      "traits": [
+        "Family",
+        "Watcher"
+      ],
+      "image": "assets/champions/TFT13_Prime.png",
+      "splash": "assets/champions/TFT13_Prime-splash.png",
+      "health": 800.0,
+      "attack": 50,
+      "armor": 45.0,
+      "range": 1.0,
+      "ability": "Hound of the Underground"
+    },
+    {
+      "id": "TFT13_Vladimir",
+      "name": "Vladimir",
+      "cost": 2,
+      "traits": [
+        "Black Rose",
+        "Watcher",
+        "Sorcerer"
+      ],
+      "image": "assets/champions/TFT13_Vladimir.png",
+      "splash": "assets/champions/TFT13_Vladimir-splash.png",
+      "health": 800.0,
+      "attack": 45,
+      "armor": 45.0,
+      "range": 1.0,
+      "ability": "Transfusion"
+    },
+    {
+      "id": "TFT13_Zeri",
+      "name": "Zeri",
+      "cost": 2,
+      "traits": [
+        "Firelight",
+        "Sniper"
+      ],
+      "image": "assets/champions/TFT13_Zeri.png",
+      "splash": "assets/champions/TFT13_Zeri-splash.png",
+      "health": 600.0,
+      "attack": 45,
+      "armor": 20.0,
+      "range": 6.0,
+      "ability": "Living Battery"
+    },
+    {
+      "id": "TFT13_Ziggs",
+      "name": "Ziggs",
+      "cost": 2,
+      "traits": [
+        "Scrap",
+        "Dominator"
+      ],
+      "image": "assets/champions/TFT13_Ziggs.png",
+      "splash": "assets/champions/TFT13_Ziggs-splash.png",
+      "health": 600.0,
+      "attack": 35,
+      "armor": 20.0,
+      "range": 4.0,
+      "ability": "Bomb Full of Bombs"
+    },
+    {
+      "id": "TFT13_Blitzcrank",
+      "name": "Blitzcrank",
+      "cost": 3,
+      "traits": [
+        "Automata",
+        "Dominator"
+      ],
+      "image": "assets/champions/TFT13_Blitzcrank.png",
+      "splash": "assets/champions/TFT13_Blitzcrank-splash.png",
+      "health": 850.0,
+      "attack": 60,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Static Field"
+    },
+    {
+      "id": "TFT13_Cassiopeia",
+      "name": "Cassiopeia",
+      "cost": 3,
+      "traits": [
+        "Black Rose",
+        "Dominator"
+      ],
+      "image": "assets/champions/TFT13_Cassiopeia.png",
+      "splash": "assets/champions/TFT13_Cassiopeia-splash.png",
+      "health": 700.0,
+      "attack": 40,
+      "armor": 25.0,
+      "range": 4.0,
+      "ability": "Thorned Miasma"
+    },
+    {
+      "id": "TFT13_Ezreal",
+      "name": "Ezreal",
+      "cost": 3,
+      "traits": [
+        "Academy",
+        "Rebel",
+        "Artillerist"
+      ],
+      "image": "assets/champions/TFT13_Ezreal.png",
+      "splash": "assets/champions/TFT13_Ezreal-splash.png",
+      "health": 700.0,
+      "attack": 60,
+      "armor": 25.0,
+      "range": 4.0,
+      "ability": "Essence Flux"
+    },
+    {
+      "id": "TFT13_Gangplank",
+      "name": "Gangplank",
+      "cost": 3,
+      "traits": [
+        "Scrap",
+        "Form Swapper",
+        "Pit Fighter"
+      ],
+      "image": "assets/champions/TFT13_Gangplank.png",
+      "splash": "assets/champions/TFT13_Gangplank-splash.png",
+      "health": 700.0,
+      "attack": 50,
+      "armor": 0.0,
+      "range": 1.0,
+      "ability": "Harvest from Flames"
+    },
+    {
+      "id": "TFT13_KogMaw",
+      "name": "Kog'Maw",
+      "cost": 3,
+      "traits": [
+        "Automata",
+        "Sniper"
+      ],
+      "image": "assets/champions/TFT13_KogMaw.png",
+      "splash": "assets/champions/TFT13_KogMaw-splash.png",
+      "health": 650.0,
+      "attack": 15,
+      "armor": 25.0,
+      "range": 4.0,
+      "ability": "Upgrading Barrage Module"
+    },
+    {
+      "id": "TFT13_Beardy",
+      "name": "Loris",
+      "cost": 3,
+      "traits": [
+        "Enforcer",
+        "Sentinel"
+      ],
+      "image": "assets/champions/TFT13_Beardy.png",
+      "splash": "assets/champions/TFT13_Beardy-splash.png",
+      "health": 850.0,
+      "attack": 50,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Piltover Bulwark"
+    },
+    {
+      "id": "TFT13_Nami",
+      "name": "Nami",
+      "cost": 3,
+      "traits": [
+        "Emissary",
+        "Sorcerer"
+      ],
+      "image": "assets/champions/TFT13_Nami.png",
+      "splash": "assets/champions/TFT13_Nami-splash.png",
+      "health": 700.0,
+      "attack": 40,
+      "armor": 25.0,
+      "range": 4.0,
+      "ability": "Ocean's Ebb"
+    },
+    {
+      "id": "TFT13_NunuWillump",
+      "name": "Nunu & Willump",
+      "cost": 3,
+      "traits": [
+        "Experiment",
+        "Bruiser",
+        "Visionary"
+      ],
+      "image": "assets/champions/TFT13_NunuWillump.png",
+      "splash": "assets/champions/TFT13_NunuWillump-splash.png",
+      "health": 800.0,
+      "attack": 50,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "ZOMBIE POWER!!\t\t\t\t\t\t"
+    },
+    {
+      "id": "TFT13_Chainsaw",
+      "name": "Renni",
+      "cost": 3,
+      "traits": [
+        "Chem-Baron",
+        "Bruiser"
+      ],
+      "image": "assets/champions/TFT13_Chainsaw.png",
+      "splash": "assets/champions/TFT13_Chainsaw-splash.png",
+      "health": 850.0,
+      "attack": 55,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Sludgerunner's Smash"
+    },
+    {
+      "id": "TFT13_FlyGuy",
+      "name": "Scar",
+      "cost": 3,
+      "traits": [
+        "Firelight",
+        "Watcher"
+      ],
+      "image": "assets/champions/TFT13_FlyGuy.png",
+      "splash": "assets/champions/TFT13_FlyGuy-splash.png",
+      "health": 800.0,
+      "attack": 50,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Sumpsnipe Surprise"
+    },
+    {
+      "id": "TFT13_Gremlin",
+      "name": "Smeech",
+      "cost": 3,
+      "traits": [
+        "Chem-Baron",
+        "Ambusher"
+      ],
+      "image": "assets/champions/TFT13_Gremlin.png",
+      "splash": "assets/champions/TFT13_Gremlin-splash.png",
+      "health": 800.0,
+      "attack": 70,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Scrap Hacker"
+    },
+    {
+      "id": "TFT13_Swain",
+      "name": "Swain",
+      "cost": 3,
+      "traits": [
+        "Conqueror",
+        "Form Swapper",
+        "Sorcerer"
+      ],
+      "image": "assets/champions/TFT13_Swain.png",
+      "splash": "assets/champions/TFT13_Swain-splash.png",
+      "health": 650.0,
+      "attack": 50,
+      "armor": 0.0,
+      "range": 1.0,
+      "ability": "Demonic Ascension"
+    },
+    {
+      "id": "TFT13_TwistedFate",
+      "name": "Twisted Fate",
+      "cost": 3,
+      "traits": [
+        "Enforcer",
+        "Quickstriker"
+      ],
+      "image": "assets/champions/TFT13_TwistedFate.png",
+      "splash": "assets/champions/TFT13_TwistedFate-splash.png",
+      "health": 700.0,
+      "attack": 35,
+      "armor": 25.0,
+      "range": 4.0,
+      "ability": "Wild Cards"
+    },
+    {
+      "id": "TFT13_Ambessa",
+      "name": "Ambessa",
+      "cost": 4,
+      "traits": [
+        "Emissary",
+        "Conqueror",
+        "Quickstriker"
+      ],
+      "image": "assets/champions/TFT13_Ambessa.png",
+      "splash": "assets/champions/TFT13_Ambessa-splash.png",
+      "health": 1100.0,
+      "attack": 65,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Unrelenting Huntress"
+    },
+    {
+      "id": "TFT13_Corki",
+      "name": "Corki",
+      "cost": 4,
+      "traits": [
+        "Scrap",
+        "Artillerist"
+      ],
+      "image": "assets/champions/TFT13_Corki.png",
+      "splash": "assets/champions/TFT13_Corki-splash.png",
+      "health": 850.0,
+      "attack": 65,
+      "armor": 30.0,
+      "range": 4.0,
+      "ability": "Broadside Barrage"
+    },
+    {
+      "id": "TFT13_DrMundo",
+      "name": "Dr. Mundo",
+      "cost": 4,
+      "traits": [
+        "Experiment",
+        "Dominator"
+      ],
+      "image": "assets/champions/TFT13_DrMundo.png",
+      "splash": "assets/champions/TFT13_DrMundo-splash.png",
+      "health": 1100.0,
+      "attack": 60,
+      "armor": 60.0,
+      "range": 1.0,
+      "ability": "Maximum Dosage"
+    },
+    {
+      "id": "TFT13_Ekko",
+      "name": "Ekko",
+      "cost": 4,
+      "traits": [
+        "Firelight",
+        "Scrap",
+        "Ambusher"
+      ],
+      "image": "assets/champions/TFT13_Ekko.png",
+      "splash": "assets/champions/TFT13_Ekko-splash.png",
+      "health": 1100.0,
+      "attack": 50,
+      "armor": 60.0,
+      "range": 1.0,
+      "ability": "Splitting Seconds"
+    },
+    {
+      "id": "TFT13_Elise",
+      "name": "Elise",
+      "cost": 4,
+      "traits": [
+        "Black Rose",
+        "Form Swapper",
+        "Bruiser"
+      ],
+      "image": "assets/champions/TFT13_Elise.png",
+      "splash": "assets/champions/TFT13_Elise-splash.png",
+      "health": 750.0,
+      "attack": 50,
+      "armor": 0.0,
+      "range": 1.0,
+      "ability": "Cocoon"
+    },
+    {
+      "id": "TFT13_Garen",
+      "name": "Garen",
+      "cost": 4,
+      "traits": [
+        "Emissary",
+        "Watcher"
+      ],
+      "image": "assets/champions/TFT13_Garen.png",
+      "splash": "assets/champions/TFT13_Garen-splash.png",
+      "health": 1000.0,
+      "attack": 65,
+      "armor": 60.0,
+      "range": 1.0,
+      "ability": "Demacian Justice"
+    },
+    {
+      "id": "TFT13_Heimerdinger",
+      "name": "Heimerdinger",
+      "cost": 4,
+      "traits": [
+        "Academy",
+        "Visionary"
+      ],
+      "image": "assets/champions/TFT13_Heimerdinger.png",
+      "splash": "assets/champions/TFT13_Heimerdinger-splash.png",
+      "health": 800.0,
+      "attack": 40,
+      "armor": 30.0,
+      "range": 4.0,
+      "ability": "PROGRESSSSS!"
+    },
+    {
+      "id": "TFT13_Illaoi",
+      "name": "Illaoi",
+      "cost": 4,
+      "traits": [
+        "Rebel",
+        "Sentinel"
+      ],
+      "image": "assets/champions/TFT13_Illaoi.png",
+      "splash": "assets/champions/TFT13_Illaoi-splash.png",
+      "health": 1100.0,
+      "attack": 70,
+      "armor": 60.0,
+      "range": 1.0,
+      "ability": "Test of Spirit"
+    },
+    {
+      "id": "TFT13_Silco",
+      "name": "Silco",
+      "cost": 4,
+      "traits": [
+        "Chem-Baron",
+        "Dominator"
+      ],
+      "image": "assets/champions/TFT13_Silco.png",
+      "splash": "assets/champions/TFT13_Silco-splash.png",
+      "health": 800.0,
+      "attack": 40,
+      "armor": 30.0,
+      "range": 4.0,
+      "ability": "Canned Monstrosity"
+    },
+    {
+      "id": "TFT13_Twitch",
+      "name": "Twitch",
+      "cost": 4,
+      "traits": [
+        "Experiment",
+        "Sniper"
+      ],
+      "image": "assets/champions/TFT13_Twitch.png",
+      "splash": "assets/champions/TFT13_Twitch-splash.png",
+      "health": 800.0,
+      "attack": 70,
+      "armor": 30.0,
+      "range": 6.0,
+      "ability": "Spray and Pray"
+    },
+    {
+      "id": "TFT13_Vi",
+      "name": "Vi",
+      "cost": 4,
+      "traits": [
+        "Enforcer",
+        "Pit Fighter"
+      ],
+      "image": "assets/champions/TFT13_Vi.png",
+      "splash": "assets/champions/TFT13_Vi-splash.png",
+      "health": 1100.0,
+      "attack": 75,
+      "armor": 50.0,
+      "range": 1.0,
+      "ability": "Wrecking Crew"
+    },
+    {
+      "id": "TFT13_Zoe",
+      "name": "Zoe",
+      "cost": 4,
+      "traits": [
+        "Rebel",
+        "Sorcerer"
+      ],
+      "image": "assets/champions/TFT13_Zoe.png",
+      "splash": "assets/champions/TFT13_Zoe-splash.png",
+      "health": 800.0,
+      "attack": 40,
+      "armor": 30.0,
+      "range": 4.0,
+      "ability": "Paddle Star!"
+    },
+    {
+      "id": "TFT13_Caitlyn",
+      "name": "Caitlyn",
+      "cost": 5,
+      "traits": [
+        "Enforcer",
+        "Sniper"
+      ],
+      "image": "assets/champions/TFT13_Caitlyn.png",
+      "splash": "assets/champions/TFT13_Caitlyn-splash.png",
+      "health": 900.0,
+      "attack": 82,
+      "armor": 40.0,
+      "range": 13.0,
+      "ability": "Air Raid"
+    },
+    {
+      "id": "TFT13_Jayce",
+      "name": "Jayce",
+      "cost": 5,
+      "traits": [
+        "Academy",
+        "Form Swapper"
+      ],
+      "image": "assets/champions/TFT13_Jayce.png",
+      "splash": "assets/champions/TFT13_Jayce-splash.png",
+      "health": 900.0,
+      "attack": 50,
+      "armor": 0.0,
+      "range": 1.0,
+      "ability": "Special Delivery"
+    },
+    {
+      "id": "TFT13_Jinx",
+      "name": "Jinx",
+      "cost": 5,
+      "traits": [
+        "Rebel",
+        "Ambusher"
+      ],
+      "image": "assets/champions/TFT13_Jinx.png",
+      "splash": "assets/champions/TFT13_Jinx-splash.png",
+      "health": 900.0,
+      "attack": 60,
+      "armor": 40.0,
+      "range": 4.0,
+      "ability": "Ruin Everything"
+    },
+    {
+      "id": "TFT13_LeBlanc",
+      "name": "LeBlanc",
+      "cost": 5,
+      "traits": [
+        "Black Rose",
+        "Sorcerer"
+      ],
+      "image": "assets/champions/TFT13_LeBlanc.png",
+      "splash": "assets/champions/TFT13_LeBlanc-splash.png",
+      "health": 900.0,
+      "attack": 50,
+      "armor": 40.0,
+      "range": 4.0,
+      "ability": "The Chains of Fate"
+    },
+    {
+      "id": "TFT13_Malzahar",
+      "name": "Malzahar",
+      "cost": 5,
+      "traits": [
+        "Automata",
+        "Visionary"
+      ],
+      "image": "assets/champions/TFT13_Malzahar.png",
+      "splash": "assets/champions/TFT13_Malzahar-splash.png",
+      "health": 950.0,
+      "attack": 45,
+      "armor": 40.0,
+      "range": 4.0,
+      "ability": "Call of the Machine"
+    },
+    {
+      "id": "TFT13_Mordekaiser",
+      "name": "Mordekaiser",
+      "cost": 5,
+      "traits": [
+        "Conqueror",
+        "Dominator"
+      ],
+      "image": "assets/champions/TFT13_Mordekaiser.png",
+      "splash": "assets/champions/TFT13_Mordekaiser-splash.png",
+      "health": 1200.0,
+      "attack": 75,
+      "armor": 70.0,
+      "range": 1.0,
+      "ability": "Grasp of the Iron Revenant"
+    },
+    {
+      "id": "TFT13_Rumble",
+      "name": "Rumble",
+      "cost": 5,
+      "traits": [
+        "Junker King",
+        "Scrap",
+        "Sentinel"
+      ],
+      "image": "assets/champions/TFT13_Rumble.png",
+      "splash": "assets/champions/TFT13_Rumble-splash.png",
+      "health": 1200.0,
+      "attack": 60,
+      "armor": 70.0,
+      "range": 1.0,
+      "ability": "The Equalizer"
+    },
+    {
+      "id": "TFT13_Lieutenant",
+      "name": "Sevika",
+      "cost": 5,
+      "traits": [
+        "High Roller",
+        "Chem-Baron",
+        "Pit Fighter"
+      ],
+      "image": "assets/champions/TFT13_Lieutenant.png",
+      "splash": "assets/champions/TFT13_Lieutenant-splash.png",
+      "health": 1200.0,
+      "attack": 80,
+      "armor": 60.0,
+      "range": 1.0,
+      "ability": "Beat the Odds"
+    }
+  ],
+  "items": [
+    {
+      "id": "TFT_Item_RabadonsDeathcap",
+      "name": "Rabadon's Deathcap",
+      "image": "assets/items/TFT_Item_RabadonsDeathcap.png",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "This humble hat can help you make, or unmake, the world itself.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_InfinityEdge",
+      "name": "Infinity Edge",
+      "image": "assets/items/TFT_Item_InfinityEdge.png",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Abilities can critically strike. If the holder's abilities can already critically strike, gain bonus% Critical Strike Damage instead.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_FrozenHeart",
+      "name": "Protector's Vow",
+      "image": "assets/items/TFT_Item_FrozenHeart.png",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Once per combat at 40.0% Health, gain a 25.0% max Health Shield that lasts 5.0 seconds and gain 20.0 Armor and 20.0 Magic Resist.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_Redemption",
+      "name": "Redemption",
+      "image": "assets/items/TFT_Item_Redemption.png",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Heal allies within 1 hex for 15.0% of their missing Health every 5.0 seconds. They also gain 10.0% Durability for 5.0 seconds (this does not stack). Healing: bonus",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_TacticiansRing",
+      "name": "Tactician's Cape",
+      "image": "assets/items/TFT_Item_TacticiansRing.png",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_FryingPan"
+      ],
+      "description": "Your team gains +1.0 max team size. 10.0% chance to drop 1 gold after 10.0 seconds of combat. \"...and a bit of Luck.\"",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_ThiefsGloves",
+      "name": "Thief's Gloves",
+      "image": "assets/items/TFT_Item_ThiefsGloves.png",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Each round: Equip 2 random items. [Consumes 3 item slots.] bonus",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_GuinsoosRageblade",
+      "name": "Guinsoo's Rageblade",
+      "image": "assets/items/TFT_Item_GuinsoosRageblade.png",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Attacks grant 5.0% stacking Attack Speed.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_IonicSpark",
+      "name": "Ionic Spark",
+      "image": "assets/items/TFT_Item_IonicSpark.png",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "30.0% Shred enemies within 2.0 hexes. When enemies cast an Ability, deal magic damage equal to 160.0% of the Mana spent. Shred : Reduce Magic Resist",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_SteraksGage",
+      "name": "Sterak's Gage",
+      "image": "assets/items/TFT_Item_SteraksGage.png",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Once per combat at 60.0% Health, gain 25.0% max Health and 35.0% Attack Damage.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_DragonsClaw",
+      "name": "Dragon's Claw",
+      "image": "assets/items/TFT_Item_DragonsClaw.png",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Gain bonus% max health. Every 2.0 seconds, heal 2.5% max Health.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_PowerGauntlet",
+      "name": "Guardbreaker",
+      "image": "assets/items/TFT_Item_PowerGauntlet.png",
+      "components": [
+        "TFT_Item_GiantsBelt",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "After damaging a Shield, gain bonus% additional Damage Amp for 3.0 seconds.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_GargoyleStoneplate",
+      "name": "Gargoyle Stoneplate",
+      "image": "assets/items/TFT_Item_GargoyleStoneplate.png",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Gain 10.0 Armor and 10.0 Magic Resist for each enemy targeting the holder.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_BrambleVest",
+      "name": "Bramble Vest",
+      "image": "assets/items/TFT_Item_BrambleVest.png",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Gain bonus% max health. Take bonus% reduced damage from attacks. When struck by any attack, deal 100.0 magic damage to all adjacent enemies. Cooldown: 2.0 seconds",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_ChainVest",
+      "name": "Chain Vest",
+      "image": "assets/items/TFT_Item_ChainVest.png",
+      "components": [],
+      "description": "+20.0 Armor",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_RecurveBow",
+      "name": "Recurve Bow",
+      "image": "assets/items/TFT_Item_RecurveBow.png",
+      "components": [],
+      "description": "+10.0% Attack Speed",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_MadredsBloodrazor",
+      "name": "Giant Slayer",
+      "image": "assets/items/TFT_Item_MadredsBloodrazor.png",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Gain bonus% additional Damage Amp against enemies with more than 1750.0 max Health.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_RedBuff",
+      "name": "Sunfire Cape",
+      "image": "assets/items/TFT_Item_RedBuff.png",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Gain bonus% max Health. Every 2.0 seconds, deal 1.0% Burn and 33.0% Wound to an enemy within 2.0 hexes for 10.0 seconds. [Unique - only 1 per champion] Burn : Deals a percent of the target's max Health as true damage every second Wound : Reduces healing received",
+      "kind": "completed",
+      "unique": true
+    },
+    {
+      "id": "TFT_Item_UnstableConcoction",
+      "name": "Hand Of Justice",
+      "image": "assets/items/TFT_Item_UnstableConcoction.png",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Gain 2 effects: bonus% Attack Damage and 15.0 Ability Power. bonus% Omnivamp. While above bonus% health, double the Attack Damage and Ability Power. While below bonus% Health, double the Omnivamp.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_GuardianAngel",
+      "name": "Edge of Night",
+      "image": "assets/items/TFT_Item_GuardianAngel.png",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Once per combat: At 60.0% Health, briefly become untargetable and shed negative effects. Then, gain 15.0% bonus Attack Speed. [Unique - only 1 per champion]",
+      "kind": "completed",
+      "unique": true
+    },
+    {
+      "id": "TFT_Item_TearOfTheGoddess",
+      "name": "Tear of the Goddess",
+      "image": "assets/items/TFT_Item_TearOfTheGoddess.png",
+      "components": [],
+      "description": "+15.0 Mana",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_NegatronCloak",
+      "name": "Negatron Cloak",
+      "image": "assets/items/TFT_Item_NegatronCloak.png",
+      "components": [],
+      "description": "+20.0 Magic Resist",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_TitansResolve",
+      "name": "Titan's Resolve",
+      "image": "assets/items/TFT_Item_TitansResolve.png",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Gain bonus% Attack Damage and 2.0 Ability Power when attacking or taking damage, stacking up to 25.0 times. At full stacks, gain 20.0 Armor and 20.0 Magic Resist.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_RunaansHurricane",
+      "name": "Runaan's Hurricane",
+      "image": "assets/items/TFT_Item_RunaansHurricane.png",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Attacks fire a bolt at a nearby enemy, dealing 55.0% Attack Damage as physical damage.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_SparringGloves",
+      "name": "Sparring Gloves",
+      "image": "assets/items/TFT_Item_SparringGloves.png",
+      "components": [],
+      "description": "+20.0 Critical Strike Chance",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_Bloodthirster",
+      "name": "Bloodthirster",
+      "image": "assets/items/TFT_Item_Bloodthirster.png",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Once per combat at 40.0% Health, gain a 25.0% max Health Shield that lasts up to 5.0 seconds.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_ArchangelsStaff",
+      "name": "Archangel's Staff",
+      "image": "assets/items/TFT_Item_ArchangelsStaff.png",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Combat start: Gain 30.0 Ability Power every 5.0 seconds in combat.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_SpearOfShojin",
+      "name": "Spear of Shojin",
+      "image": "assets/items/TFT_Item_SpearOfShojin.png",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Attacks grant 5.0 bonus Mana.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_SpectralGauntlet",
+      "name": "Evenshroud",
+      "image": "assets/items/TFT_Item_SpectralGauntlet.png",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "30.0% Sunder enemies within 2.0 hexes. Gain 25.0 Armor and Magic Resist for the first 10.0 seconds of combat. Sunder : Reduce Armor",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_Spatula",
+      "name": "Spatula",
+      "image": "assets/items/TFT_Item_Spatula.png",
+      "components": [],
+      "description": "It must do something...",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_Leviathan",
+      "name": "Nashor's Tooth",
+      "image": "assets/items/TFT_Item_Leviathan.png",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "After casting an Ability, gain 60.0% Attack Speed for 5.0 seconds.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_Morellonomicon",
+      "name": "Morellonomicon",
+      "image": "assets/items/TFT_Item_Morellonomicon.png",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Attacks and Abilities deal 1.0% Burn and 33.0% Wound to enemies for 10.0 seconds. [Unique - only 1 per champion] Burn : Deals a percent of the target's max Health as true damage every second Wound : Reduces healing received",
+      "kind": "completed",
+      "unique": true
+    },
+    {
+      "id": "TFT_Item_RapidFireCannon",
+      "name": "Red Buff",
+      "image": "assets/items/TFT_Item_RapidFireCannon.png",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Attacks and Abilities 1.0% Burn and 33.0% Wound enemies for 5.0 seconds. Burn : Deals a percent of the target's max Health as true damage every second Wound : Reduces healing received",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_Crownguard",
+      "name": "Crownguard",
+      "image": "assets/items/TFT_Item_Crownguard.png",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Combat start: Gain a 25.0% max Health Shield for 8.0 seconds. When the shield expires, gain 25.0 Ability Power.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_BFSword",
+      "name": "B.F. Sword",
+      "image": "assets/items/TFT_Item_BFSword.png",
+      "components": [],
+      "description": "+bonus% Attack Damage",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_AdaptiveHelm",
+      "name": "Adaptive Helm",
+      "image": "assets/items/TFT_Item_AdaptiveHelm.png",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Combat start: Gain different bonuses based on starting position. Front Two Rows: 40.0 Armor and Magic Resist. Gain 1.0 Mana when struck by an attack. Back Two Rows: 15.0 Ability Power. Gain 10.0 Mana every 3.0 seconds.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_BlueBuff",
+      "name": "Blue Buff",
+      "image": "assets/items/TFT_Item_BlueBuff.png",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Gain 10.0 Mana after casting. When the holder gets a takedown, they deal bonus% more damage for 8.0 seconds. [Unique - only 1 per champion]",
+      "kind": "completed",
+      "unique": true
+    },
+    {
+      "id": "TFT_Item_LastWhisper",
+      "name": "Last Whisper",
+      "image": "assets/items/TFT_Item_LastWhisper.png",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Physical damage 30.0% Sunders the target for 3.0 seconds. This effect does not stack. [Unique - only 1 per champion] Sunder : Reduce Armor",
+      "kind": "completed",
+      "unique": true
+    },
+    {
+      "id": "TFT_Item_JeweledGauntlet",
+      "name": "Jeweled Gauntlet",
+      "image": "assets/items/TFT_Item_JeweledGauntlet.png",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Abilities can critically strike. If the holder's abilities can already critically strike, gain bonus% Critical Strike Damage instead.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_GiantsBelt",
+      "name": "Giant's Belt",
+      "image": "assets/items/TFT_Item_GiantsBelt.png",
+      "components": [],
+      "description": "+150.0 Health",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_NeedlesslyLargeRod",
+      "name": "Needlessly Large Rod",
+      "image": "assets/items/TFT_Item_NeedlesslyLargeRod.png",
+      "components": [],
+      "description": "+10.0 Ability Power",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_NightHarvester",
+      "name": "Steadfast Heart",
+      "image": "assets/items/TFT_Item_NightHarvester.png",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Gain bonus% Durability. While above bonus% Health, instead gain bonus% Durability.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_FryingPan",
+      "name": "Frying Pan",
+      "image": "assets/items/TFT_Item_FryingPan.png",
+      "components": [],
+      "description": "...why else would it be here?",
+      "kind": "component",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_ForceOfNature",
+      "name": "Tactician's Crown",
+      "image": "assets/items/TFT_Item_ForceOfNature.png",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Your team gains +1.0 max team size. 10.0% chance to drop 1 gold when you win combat. \"...the Heart of a hero...\"",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_Quicksilver",
+      "name": "Quicksilver",
+      "image": "assets/items/TFT_Item_Quicksilver.png",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Combat start: Gain immunity to crowd control for 18.0 seconds. During this time, gain bonus% Attack Speed every 2.0 seconds. [Unique - only 1 per champion]",
+      "kind": "completed",
+      "unique": true
+    },
+    {
+      "id": "TFT_Item_Deathblade",
+      "name": "Deathblade",
+      "image": "assets/items/TFT_Item_Deathblade.png",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_BFSword"
+      ],
+      "description": "Perfect peace and calm for the holder - and all who face it.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_TacticiansScepter",
+      "name": "Tactician's Shield",
+      "image": "assets/items/TFT_Item_TacticiansScepter.png",
+      "components": [
+        "TFT_Item_FryingPan",
+        "TFT_Item_FryingPan"
+      ],
+      "description": "Your team gains +1.0 max team size. 10.0% chance to drop 1 gold when the holder dies. \"Imbued with a Philosopher's wisdom...\"",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_WarmogsArmor",
+      "name": "Warmog's Armor",
+      "image": "assets/items/TFT_Item_WarmogsArmor.png",
+      "components": [
+        "TFT_Item_GiantsBelt",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Gain bonus% max health.",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_StatikkShiv",
+      "name": "Statikk Shiv",
+      "image": "assets/items/TFT_Item_StatikkShiv.png",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Every 3rd attack deals 35.0 magic damage and 30.0% Shreds 4.0 enemies for 5.0 seconds. Shred : Reduce Magic Resist",
+      "kind": "completed",
+      "unique": false
+    },
+    {
+      "id": "TFT_Item_HextechGunblade",
+      "name": "Hextech Gunblade",
+      "image": "assets/items/TFT_Item_HextechGunblade.png",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Heal the lowest percent Health ally for bonus% of damage dealt. Ally Healing: bonus",
+      "kind": "completed",
+      "unique": false
+    }
+  ],
+  "traits": [
+    {
+      "id": "TFT13_Hextech",
+      "name": "Automata",
+      "image": "assets/traits/TFT13_Hextech.png",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "TFT13_Sorcerer",
+      "name": "Sorcerer",
+      "image": "assets/traits/TFT13_Sorcerer.png",
+      "thresholds": [
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "TFT13_Scrap",
+      "name": "Scrap",
+      "image": "assets/traits/TFT13_Scrap.png",
+      "thresholds": [
+        2,
+        4,
+        6,
+        9
+      ]
+    },
+    {
+      "id": "TFT13_Martialist",
+      "name": "Artillerist",
+      "image": "assets/traits/TFT13_Martialist.png",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "TFT13_FormSwapper",
+      "name": "Form Swapper",
+      "image": "assets/traits/TFT13_FormSwapper.png",
+      "thresholds": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "TFT13_Ambassador",
+      "name": "Emissary",
+      "image": "assets/traits/TFT13_Ambassador.png",
+      "thresholds": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "TFT13_Titan",
+      "name": "Sentinel",
+      "image": "assets/traits/TFT13_Titan.png",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "TFT13_Family",
+      "name": "Family",
+      "image": "assets/traits/TFT13_Family.png",
+      "thresholds": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "TFT13_Ambusher",
+      "name": "Ambusher",
+      "image": "assets/traits/TFT13_Ambusher.png",
+      "thresholds": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "TFT13_Invoker",
+      "name": "Visionary",
+      "image": "assets/traits/TFT13_Invoker.png",
+      "thresholds": [
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "TFT13_Sniper",
+      "name": "Sniper",
+      "image": "assets/traits/TFT13_Sniper.png",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "TFT13_Warband",
+      "name": "Conqueror",
+      "image": "assets/traits/TFT13_Warband.png",
+      "thresholds": [
+        2,
+        4,
+        6,
+        9
+      ]
+    },
+    {
+      "id": "TFT13_HighRoller",
+      "name": "High Roller",
+      "image": "assets/traits/TFT13_HighRoller.png",
+      "thresholds": [
+        1
+      ]
+    },
+    {
+      "id": "TFT13_Academy",
+      "name": "Academy",
+      "image": "assets/traits/TFT13_Academy.png",
+      "thresholds": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "TFT13_Crime",
+      "name": "Chem-Baron",
+      "image": "assets/traits/TFT13_Crime.png",
+      "thresholds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "TFT13_Rebel",
+      "name": "Rebel",
+      "image": "assets/traits/TFT13_Rebel.png",
+      "thresholds": [
+        3,
+        5,
+        7,
+        10
+      ]
+    },
+    {
+      "id": "TFT13_Infused",
+      "name": "Dominator",
+      "image": "assets/traits/TFT13_Infused.png",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "TFT13_Pugilist",
+      "name": "Pit Fighter",
+      "image": "assets/traits/TFT13_Pugilist.png",
+      "thresholds": [
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "TFT13_Squad",
+      "name": "Enforcer",
+      "image": "assets/traits/TFT13_Squad.png",
+      "thresholds": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ]
+    },
+    {
+      "id": "TFT13_Hoverboard",
+      "name": "Firelight",
+      "image": "assets/traits/TFT13_Hoverboard.png",
+      "thresholds": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "TFT13_Experiment",
+      "name": "Experiment",
+      "image": "assets/traits/TFT13_Experiment.png",
+      "thresholds": [
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "TFT13_Bruiser",
+      "name": "Bruiser",
+      "image": "assets/traits/TFT13_Bruiser.png",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "TFT13_JunkerKing",
+      "name": "Junker King",
+      "image": "assets/traits/TFT13_JunkerKing.png",
+      "thresholds": [
+        1
+      ]
+    },
+    {
+      "id": "TFT13_Cabal",
+      "name": "Black Rose",
+      "image": "assets/traits/TFT13_Cabal.png",
+      "thresholds": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "TFT13_Challenger",
+      "name": "Quickstriker",
+      "image": "assets/traits/TFT13_Challenger.png",
+      "thresholds": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "TFT13_Watcher",
+      "name": "Watcher",
+      "image": "assets/traits/TFT13_Watcher.png",
+      "thresholds": [
+        2,
+        4,
+        6
+      ]
+    }
+  ]
+}

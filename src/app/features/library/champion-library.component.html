@@ -1,0 +1,105 @@
+<div class="library-header">
+  <div class="tabs" role="tablist" aria-label="Catalogue du jeu">
+    <button role="tab" [attr.aria-selected]="tab() === 'units'" [class.active]="tab() === 'units'"
+            (click)="switchTab('units')">
+      <lucide-icon [img]="icons.Users" [size]="15" /> Champions <span>{{ units().length }}</span>
+    </button>
+    <button role="tab" [attr.aria-selected]="tab() === 'items'" [class.active]="tab() === 'items'"
+            (click)="switchTab('items')">
+      <lucide-icon [img]="icons.Package" [size]="15" /> Objets <span>{{ items().length }}</span>
+    </button>
+  </div>
+  <label class="search-field">
+    <lucide-icon [img]="icons.Search" [size]="15" />
+    <input [value]="search()" (input)="search.set($any($event.target).value)"
+           [placeholder]="tab() === 'units' ? 'Rechercher un champion…' : 'Rechercher un objet…'"
+           [attr.aria-label]="tab() === 'units' ? 'Rechercher un champion' : 'Rechercher un objet'">
+  </label>
+</div>
+
+<div class="library-filters">
+  @if (tab() === 'units') {
+    <span>Cliquez pour ajouter ou glissez vers une case.</span>
+    <label class="select-control">
+      <select [value]="traitId()" (change)="traitId.set($any($event.target).value)" aria-label="Filtrer par trait">
+        <option value="" [selected]="!traitId()">Tous les traits</option>
+        @for (trait of traits(); track trait.id) {
+          <option [value]="trait.id" [selected]="traitId() === trait.id">{{ trait.name }}</option>
+        }
+      </select>
+      <lucide-icon [img]="icons.ChevronDown" [size]="13" />
+    </label>
+  } @else {
+    <div class="item-filters">
+      @for (kind of itemKinds; track kind.value) {
+        <button [class.active]="itemKind() === kind.value" (click)="itemKind.set(kind.value)">{{ kind.label }}</button>
+      }
+    </div>
+    <span>Équipez le champion sélectionné.</span>
+  }
+</div>
+
+@if (loading()) {
+  <div class="catalog-empty"><span class="loading-indicator"></span><p>Chargement du catalogue…</p></div>
+} @else if (tab() === 'units') {
+  <div class="champion-grid">
+    @for (unit of filteredUnits(); track unit.id) {
+      <button class="champion-card" draggable="true" (dragstart)="startUnitDrag($event, unit)"
+              (click)="unitPicked.emit(unit)" [attr.aria-label]="'Ajouter ' + unit.name"
+              [title]="unit.name + (traitsFor(unit.id) ? ' · ' + traitsFor(unit.id) : '')">
+        <span class="portrait"><app-game-image [imageLink]="unit.image_link" [label]="unit.name" />
+          <span class="add-overlay"><lucide-icon [img]="icons.Plus" [size]="20" /></span>
+        </span>
+        <strong>{{ unit.name }}</strong>
+      </button>
+    } @empty {
+      <div class="catalog-empty">
+        <lucide-icon [img]="icons.Users" [size]="27" />
+        <p>{{ units().length ? 'Aucun champion ne correspond aux filtres.' : 'Le catalogue de champions est vide.' }}</p>
+        @if (units().length) { <button class="text-button" (click)="clearFilters()">Effacer les filtres</button> }
+        @else { <span>Les champions apparaîtront dès que les données du serveur seront disponibles.</span> }
+      </div>
+    }
+  </div>
+} @else {
+  <div class="item-grid">
+    @for (item of filteredItems(); track item.id) {
+      <button class="item-card" draggable="true" (dragstart)="startItemDrag($event, item)"
+              (click)="itemPicked.emit(item)" [attr.aria-label]="'Équiper ' + item.name"
+              (mouseenter)="hoveredItem.set(item)" (mouseleave)="hoveredItem.set(null)"
+              (focus)="hoveredItem.set(item)" (blur)="hoveredItem.set(null)">
+        <span class="item-image"><app-game-image [imageLink]="item.image_link" [label]="item.name" /></span>
+        <strong>{{ item.name }}</strong>
+      </button>
+    } @empty {
+      <div class="catalog-empty">
+        <lucide-icon [img]="icons.Package" [size]="27" />
+        <p>{{ items().length ? 'Aucun objet ne correspond aux filtres.' : 'Le catalogue d’objets est vide.' }}</p>
+        @if (items().length) { <button class="text-button" (click)="clearFilters()">Effacer les filtres</button> }
+      </div>
+    }
+  </div>
+}
+
+<div class="library-footer">
+  <span>{{ tab() === 'units' ? filteredUnits().length + ' champions' : filteredItems().length + ' objets' }}</span>
+  <span>Chaque choix prépare la suite.</span>
+</div>
+
+@if (hoveredItem(); as item) {
+  <aside class="item-tooltip" role="tooltip">
+    <strong>{{ item.name }}</strong>
+    @if (components(item).length) {
+      <span class="recipe-label">RECETTE</span>
+      <div class="recipe">
+        @for (component of components(item); track $index) {
+          @if ($index) { <span>+</span> }
+          <span class="recipe-component" [title]="component.name">
+            <app-game-image [imageLink]="component.image_link" [label]="component.name" />
+          </span>
+          <span class="component-name">{{ component.name }}</span>
+        }
+      </div>
+    } @else { <p>Objet de base</p> }
+  </aside>
+}

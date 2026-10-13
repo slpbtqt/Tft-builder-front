@@ -1,0 +1,48 @@
+@if (unit(); as unit) {
+  <div class="inspector-header">
+    <div class="selected-portrait"><app-game-image [imageLink]="unit.image_link" [label]="unit.name" /></div>
+    <div><span class="eyebrow">CHAMPION SÉLECTIONNÉ</span><h3>{{ unit.name }}</h3>
+      <span class="location">{{ address()?.zone === 'bench' ? 'Sur le banc' : 'Sur le terrain' }}</span>
+    </div>
+  </div>
+  <div class="inspector-body">
+    <div class="star-controls"><span>Étoiles</span><div>
+      @for (stars of starLevels; track stars) {
+        <button [class.active]="entry()?.stars === stars" [attr.aria-pressed]="entry()?.stars === stars"
+                [attr.aria-label]="stars + ' étoiles'" (click)="starsChanged.emit(stars)">{{ '★'.repeat(stars) }}</button>
+      }
+    </div></div>
+    <div class="section-label"><span>OBJETS ÉQUIPÉS</span><span>{{ equippedCount() }} / 3</span></div>
+    <div class="equipment">
+      @for (item of itemSlots(); track $index) {
+        <div class="equipment-slot" [class.filled]="item">
+          @if (item) {
+            <app-game-image [imageLink]="item.image_link" [label]="item.name" />
+            <button class="remove-item" [attr.aria-label]="'Retirer ' + item.name" (click)="itemRemoved.emit($index)">
+              <lucide-icon [img]="icons.X" [size]="11" />
+            </button>
+          } @else {
+            <button class="choose-item" (click)="chooseItems.emit()" [attr.aria-label]="'Choisir l’objet ' + ($index + 1)">
+              <lucide-icon [img]="icons.Plus" [size]="19" />
+            </button>
+          }
+        </div>
+      }
+    </div>
+    <p class="equipment-help">Choisissez un objet dans le catalogue pour l’équiper.</p>
+    <div class="move-actions">
+      @if (address()?.zone === 'bench') {
+        <button class="button secondary" (click)="moveToBoard.emit()"><lucide-icon [img]="icons.ArrowUp" [size]="14" /> Vers le terrain</button>
+      } @else {
+        <button class="button secondary" (click)="moveToBench.emit()"><lucide-icon [img]="icons.ArrowDown" [size]="14" /> Vers le banc</button>
+      }
+      <button class="button secondary" (click)="choosePosition.emit()"><lucide-icon [img]="icons.Crosshair" [size]="14" /> Choisir une case</button>
+    </div>
+    <button class="remove-champion" (click)="removeUnit.emit()"><lucide-icon [img]="icons.Trash2" [size]="14" /> Retirer le champion</button>
+  </div>
+} @else {
+  <div class="inspector-empty"><lucide-icon [img]="icons.Crosshair" [size]="32" />
+    <h3>Chaque champion compte.</h3>
+    <p>Sélectionnez un champion du terrain ou du banc pour gérer ses étoiles, ses objets et sa position.</p>
+  </div>
+}

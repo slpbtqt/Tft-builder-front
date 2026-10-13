@@ -1,0 +1,88 @@
+<div class="results-heading">
+  <div><span class="eyebrow">LE PROCHAIN COUP</span><h2>Les compos meta les plus proches</h2>
+    <p>Les champions du terrain et du banc comptent dans la comparaison.</p>
+  </div>
+  @if (calculated()) { <span class="result-count">{{ matches().length }} {{ matches().length > 1 ? 'compositions' : 'composition' }}</span> }
+</div>
+
+@if (dirty() && calculated()) {
+  <div class="stale-notice" role="status"><lucide-icon [img]="icons.Info" [size]="15" /> L’équipe ou les options ont changé. Recalculez pour actualiser les résultats.</div>
+}
+
+@if (!catalogReady()) {
+  <div class="results-empty panel"><lucide-icon [img]="icons.LayoutGrid" [size]="30" /><h3>Le catalogue meta n’est pas encore disponible.</h3>
+    <p>Les résultats apparaîtront lorsque le serveur fournira les équipes meta complètes.</p>
+  </div>
+} @else if (!calculated()) {
+  <div class="results-empty panel"><lucide-icon [img]="icons.Calculator" [size]="30" /><h3>Votre équipe, votre point de départ.</h3>
+    <p>Ajoutez des champions, puis cliquez sur « Calculer la compo » pour comparer votre équipe au catalogue meta.</p>
+  </div>
+} @else {
+  <div class="result-list">
+    @for (match of visibleMatches(); track match.metaComp.comp.id) {
+      @let comp = match.metaComp.comp;
+      <article class="result-card panel">
+        <div class="result-main">
+          <div class="rank"><span>{{ $index + 1 }}</span></div>
+          <div class="result-content">
+            <div class="result-title"><h3>{{ comp.name ?? 'Composition #' + comp.id }}</h3>
+              @if (comp.levelling) { <span class="strategy">{{ comp.levelling }}</span> }
+            </div>
+            <div class="meta-roster">
+              @for (build of match.metaComp.builds; track build.id) {
+                @let unit = units().get(build.unit_id);
+                @if (unit) {
+                  <span class="roster-unit" [class.matched]="match.matchedUnitIds.includes(unit.id)" [title]="unit.name">
+                    <app-game-image [imageLink]="unit.image_link" [label]="unit.name" />
+                    @if (match.matchedUnitIds.includes(unit.id)) { <lucide-icon [img]="icons.Check" [size]="10" /> }
+                  </span>
+                }
+              }
+            </div>
+            <div class="match-summary">
+              <span>{{ match.matchedUnitIds.length }} / {{ match.matchedUnitIds.length + match.missingUnitIds.length }} champions disponibles</span>
+              @if (includeItems() && match.requiredItems) { <span>{{ match.matchedItems }} / {{ match.requiredItems }} objets conformes</span> }
+            </div>
+            @if (match.missingUnitIds.length) {
+              <div class="missing-units"><span>À trouver :</span>
+                @for (id of match.missingUnitIds; track id) { <span class="missing-name">{{ units().get(id)?.name }}</span> }
+              </div>
+            }
+          </div>
+          <div class="result-right">
+            <span class="score">{{ match.score }}<small>%</small></span><span class="score-caption">de proximité</span>
+            <div class="score-track" role="meter" aria-label="Proximité" [attr.aria-valuenow]="match.score" aria-valuemin="0" aria-valuemax="100"><span [style.width.%]="match.score"></span></div>
+            @if (comp.avg_placement !== null) { <span class="stat-line">Placement moyen <strong>{{ stat(comp.avg_placement) }}</strong></span> }
+            @if (comp.win_rate !== null) { <span class="stat-line">Win rate <strong>{{ stat(comp.win_rate) }}</strong></span> }
+            <button class="detail-button" (click)="toggleDetails(comp.id)" [attr.aria-expanded]="expandedId() === comp.id">
+              {{ expandedId() === comp.id ? 'Masquer les détails' : 'Voir les builds' }}<lucide-icon [img]="icons.ChevronDown" [size]="13" />
+            </button>
+          </div>
+        </div>
+        @if (expandedId() === comp.id) {
+          <div class="build-details">
+            @for (build of match.metaComp.builds; track build.id) {
+              <div class="build-row"><strong>{{ units().get(build.unit_id)?.name }}</strong>
+                @if (build.stars) { <span class="build-stars">{{ '★'.repeat(build.stars) }}</span> }
+                <div class="build-items">
+                  @for (id of [build.item1_id, build.item2_id, build.item3_id]; track $index) {
+                    @if (id && items().get(id); as item) {
+                      <span class="build-item" [title]="item.name"><app-game-image [imageLink]="item.image_link" [label]="item.name" /></span>
+                    }
+                  }
+                </div>
+              </div>
+            }
+          </div>
+        }
+      </article>
+    } @empty {
+      <div class="results-empty panel"><lucide-icon [img]="icons.Search" [size]="30" /><h3>Aucune composition ne partage vos champions.</h3>
+        <p>Modifiez votre terrain ou votre banc, puis lancez un nouveau calcul.</p>
+      </div>
+    }
+  </div>
+  @if (limit() < matches().length) {
+    <button class="button secondary show-more" (click)="showMore()">Afficher plus de compositions<lucide-icon [img]="icons.ChevronDown" [size]="14" /></button>
+  }
+}

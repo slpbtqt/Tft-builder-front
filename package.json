@@ -1,12 +1,12 @@
 {
   "name": "hexforge-tft-frontend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "start": "ng serve --host 0.0.0.0 --port 4200",
     "build": "ng build",
     "check": "tsc --noEmit -p tsconfig.app.json",
-    "test": "node tests/build-state.test.mjs"
+    "test": "node tests/core.test.mjs"
   },
   "dependencies": {
     "@angular/common": "^20.3.0",

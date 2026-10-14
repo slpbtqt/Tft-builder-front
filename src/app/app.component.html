@@ -107,7 +107,7 @@
   <section class="calculate-panel panel" aria-label="Calcul des compositions">
     <div class="calculate-copy"><span class="calculate-icon"><lucide-icon [img]="icons.Calculator" [size]="23" /></span><div><h2>Votre prochain choix, en un calcul.</h2><p>Comparez vos champions disponibles aux équipes du catalogue meta.</p></div></div>
     <div class="calculate-controls"><label class="item-option"><input type="checkbox" [checked]="includeItems()" (change)="includeItems.set($any($event.target).checked)"><span>Inclure les objets équipés</span></label>
-      <button class="button gold calculate-button" [disabled]="!canCalculate()" (click)="calculate()" aria-describedby="calculate-help"><lucide-icon [img]="icons.Calculator" [size]="16" /> Calculer la compo<lucide-icon [img]="icons.ArrowRight" [size]="15" /></button>
+      <button class="button primary calculate-button" [disabled]="!canCalculate()" (click)="calculate()" aria-describedby="calculate-help"><lucide-icon [img]="icons.Calculator" [size]="16" /> Calculer la compo<lucide-icon [img]="icons.ArrowRight" [size]="15" /></button>
     </div>
     <p class="calculate-help" id="calculate-help">
       {{ !catalog.completeComps().length ? 'Le calcul nécessite un catalogue meta contenant des équipes complètes.' : !team.ownedCount() ? 'Ajoutez au moins un champion sur le terrain ou sur le banc.' : 'Les résultats sont classés par proximité, puis par placement moyen.' }}

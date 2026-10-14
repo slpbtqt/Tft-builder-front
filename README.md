@@ -58,6 +58,10 @@ Le niveau limite uniquement le terrain ; le banc possède toujours neuf places. 
 
 Les pondérations sont regroupées dans `src/app/core/comp-matcher.ts`. Les statistiques affichées viennent exclusivement du serveur. `win_rate` est affiché dans l’unité reçue : le front ne déduit pas arbitrairement s’il s’agit d’un ratio ou d’un pourcentage.
 
+## Thème Arcane
+
+La palette est centralisée dans les variables CSS de `src/styles.css` : fonds noirs (`--bg`, `--panel`, `--surface-*`), violet électrique (`--accent`, `--accent-light`, `--accent-strong`) et détails cyan (`--cyan`). Les composants utilisent ces variables plutôt que des couleurs répétées. Les lueurs restent discrètes ; le focus clavier utilise le cyan et les avertissements gardent une couleur distincte.
+
 ## Organisation du code
 
 ```text

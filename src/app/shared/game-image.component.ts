@@ -16,8 +16,8 @@ import { Component, computed, input, signal } from '@angular/core';
     img { width: 100%; height: 100%; object-fit: cover; }
     .initials {
       display: grid; place-items: center; width: 100%; height: 100%;
-      background: linear-gradient(135deg, #233348, #172230);
-      color: #c7ac7c; font-weight: 600; font-size: 1rem;
+      background: linear-gradient(135deg, var(--surface-2), var(--surface-0));
+      color: var(--accent-light); font-weight: 600; font-size: 1rem;
     }
   `,
 })
